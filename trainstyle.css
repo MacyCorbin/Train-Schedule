@@ -1,0 +1,102 @@
+/*-------------- Jumbotron --------------- */
+.jumbotron{
+    background-color: #015564;
+    color:#16A2B8;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+/*-------------- Titles of the Table and Form --------------- */
+
+.trainTitle{
+    width: 100%;
+    background-color: #16A2B8;
+    padding: 15px 15px 15px 40px;
+    color: white;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+    /* border for table top*/
+    border-collapse: collapse;
+    border-radius: 20px 20px 0px 0px;
+    border-style: hidden;
+    box-shadow: 0 0 0 3px #16A2B8; 
+}
+
+.addTrain{
+    width: 100%;
+    background-color: #16A2B8;
+    padding: 15px 15px 15px 40px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 24px;
+
+    /* border for form top */
+    border-collapse: collapse;
+    border-radius: 20px 20px 0px 0px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 3px #16A2B8; 
+}
+
+/*-------------- Button Style --------------- */
+
+.btn{
+    background-color: #16A2B8;
+    color: white;
+    margin-left: 40px;
+
+}
+
+.btn:hover {
+    background-color: #015564;
+    
+}
+
+/*-------------- Table Style --------------- */
+
+table {
+    /* border for table bottom */
+    margin-bottom: 50px;
+    border-collapse: collapse;
+    border-radius: 0 0px 20px 20px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 3px #16A2B8; 
+    color: #777777;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    padding-left: 40px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+/*-------------- Form Style --------------- */
+
+.form-group{
+    padding: 0 40px 0 40px;
+}
+
+form{
+    /* border for form bottom */
+    border-collapse: collapse;
+    border-radius: 0 0px 20px 20px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 3px #16A2B8;
+
+    /* style form */  
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+    color: #777777;
+    font-weight: 700;
+}
+
+#textStyle{
+    padding-top: 20px;
+}
+
+
+
